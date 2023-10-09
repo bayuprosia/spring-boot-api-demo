@@ -1,6 +1,6 @@
-package com.tomgregory.repository;
+package com.bayuprosia.repository;
 
-import com.tomgregory.entity.ThemeParkRide;
+import com.bayuprosia.entity.ThemeParkRide;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

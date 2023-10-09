@@ -1,13 +1,13 @@
-package com.tomgregory.controller;
+package com.bayuprosia.controller;
 
-import com.tomgregory.entity.ThemeParkRide;
-import com.tomgregory.repository.ThemeParkRideRepository;
+import com.bayuprosia.entity.ThemeParkRide;
+import com.bayuprosia.repository.ThemeParkRideRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 
 @RestController
 public class ThemeParkRideController {
